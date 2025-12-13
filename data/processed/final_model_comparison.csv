@@ -1,0 +1,6 @@
+Model Name,R2_Score,MAE,R2_Score_Formatted,Status
+Random Forest Regressor (Pritilata),0.9789,847.67,97.89%,🏆 CHAMPION ARTIFACT
+Decision Tree Regressor (Dhrubajit),0.9769,379.02,97.69%,Competitor
+KNN Regressor (Subhadip),0.9724,1083.87,97.24%,Competitor
+Linear Regression (Shriyut),0.8176,3674.17,81.76%,Competitor
+Lasso Regression (Shriyut),0.8175,3674.31,81.75%,Competitor
