@@ -29,7 +29,7 @@ Below is the final evaluation of all models developed by the team.
 
 | Rank | Model Name | R² Score | MAE | Developer |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | **Random Forest** | **97.89%** | **847.67** | **Pritilata (Lead)** |
+| **1** | **Random Forest** | **97.89%** | **847.67** | **Pritilata** |
 | 2 | Decision Tree | 96.10%* | 1250.50* | Dhrubajit |
 | 3 | Lasso Regression | 81.75%* | 3500.70* | Shriyut |
 | 4 | Linear Regression | 81.76%* | 3480.10* | Shriyut |
