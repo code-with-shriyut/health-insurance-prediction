@@ -104,7 +104,7 @@ streamlit run app/main.py
 
 | Contributor | Roles & Responsibilities |
 | --- | --- |
-| **Shriyut** | Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, Final Review. |
+| **Shriyut** | Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, UI Developement & Final Review. |
 | **Pritilata** | Random Forest Model Development (Champion Model) & **UI Development**. |
 | **Dhrubajit** | Decision Tree Implementation. |
 | **Subhadip** | KNN Regressor Model. |
