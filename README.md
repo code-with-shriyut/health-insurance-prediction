@@ -56,7 +56,8 @@ health-insurance-prediction/
 │   └── model_Comparison_FINAL.ipynb # Benchmarking Code
 ├── README.md                    # Project Documentation
 └── requirements.txt             # Project Dependencies
-🛠️ How to Run the Project
+
+## 🛠️ How to Run the Project
 1. Clone the Repository
 Bash
 
@@ -82,7 +83,7 @@ Bash
 
 streamlit run app/main.py
 
-👥 Contributors & Roles
+## 👥 Contributors & Roles
 Shriyut: Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, Final Review.
 
 Pritilata: Random Forest Model Development (Champion Model).
