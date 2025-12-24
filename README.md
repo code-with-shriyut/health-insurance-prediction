@@ -1,6 +1,6 @@
 # 🏥 Insurance Premium Prediction Project
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_LINK_HERE)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://health-insurance-prediction-shriyut.streamlit.app)
 
 > **🚀 Project Status:** Phase 1 Completed (Champion Model Selected)
 
