@@ -1,5 +1,7 @@
 # 🏥 Insurance Premium Prediction Project
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_LINK_HERE)
+
 > **🚀 Project Status:** Phase 1 Completed (Champion Model Selected)
 
 This project applies Machine Learning techniques to predict health insurance premiums based on personal attributes such as age, BMI, smoking habits, and region. The goal was to build a highly accurate regression model to assist in automated premium estimation.
