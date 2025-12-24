@@ -28,7 +28,7 @@ Below is the final evaluation of all models developed by the team.
 
 | Rank | Model Name | R² Score | MAE | Developer |
 | :---: | :--- | :--- | :--- | :--- |
-| 🥇 | **Random Forest** | **97.89%** | **847.67** | Pritilata |
+| 🥇 | **Random Forest** | **97.89%** | **847.67** | **Pritilata** |
 | 🥈 | KNN Regressor | 97.24% | 1083.87 | Subhadip |
 | 🥉 | Decision Tree | 96.10% | 1250.50 | Dhrubajit |
 | 4 | Lasso Regression | 81.75% | 3500.70 | Shriyut |
@@ -57,37 +57,56 @@ health-insurance-prediction/
 ├── README.md                    # Project Documentation
 └── requirements.txt             # Project Dependencies
 
-## 🛠️ How to Run the Project
-1. Clone the Repository
-Bash
+```
 
+---
+
+## 🛠️ How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
 git clone <your-repo-link>
 cd health-insurance-prediction
 
-2. Install Dependencies
-Bash
+```
 
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 
-3. Verify the Champion Model
+```
+
+### 3. Verify the Champion Model
+
 Run the verification script to confirm the 97.89% accuracy:
 
-Bash
-
+```bash
 jupyter notebook notebooks/model_Verification_FINAL.ipynb
 
-4. Run the Dashboard App (New)
+```
+
+### 4. Run the Dashboard App (New)
+
 To launch the interactive web interface:
 
-Bash
-
+```bash
 streamlit run app/main.py
 
+```
+
+---
+
 ## 👥 Contributors & Roles
-Shriyut: Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, Final Review.
 
-Pritilata: Random Forest Model Development (Champion Model).
+| Contributor | Roles & Responsibilities |
+| --- | --- |
+| **Shriyut** | Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, Final Review. |
+| **Pritilata** | Random Forest Model Development (Champion Model) & **UI Development**. |
+| **Dhrubajit** | Decision Tree Implementation. |
+| **Subhadip** | KNN Regressor Model. |
 
-Dhrubajit: Decision Tree Implementation.
+```
 
-Subhadip: KNN Regressor Model.
+```
