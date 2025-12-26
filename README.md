@@ -1,5 +1,7 @@
 # 🏥 Insurance Premium Prediction Project
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://health-insurance-prediction-6txznqt3mghqyanykyrmdv.streamlit.app/)
+
 > **🚀 Project Status:** Phase 1 Completed (Champion Model Selected)
 
 This project applies Machine Learning techniques to predict health insurance premiums based on personal attributes such as age, BMI, smoking habits, and region. The goal was to build a highly accurate regression model to assist in automated premium estimation.
@@ -102,7 +104,7 @@ streamlit run app/main.py
 
 | Contributor | Roles & Responsibilities |
 | --- | --- |
-| **Shriyut** | Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, Final Review. |
+| **Shriyut** | Project Orchestration, Data Preprocessing, Pipeline Design, Linear/Lasso Models, UI Developement & Final Review. |
 | **Pritilata** | Random Forest Model Development (Champion Model) & **UI Development**. |
 | **Dhrubajit** | Decision Tree Implementation. |
 | **Subhadip** | KNN Regressor Model. |
