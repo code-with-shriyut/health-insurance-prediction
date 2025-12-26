@@ -170,14 +170,14 @@ def main():
                     st.info("ℹ️ Standard Risk Profile: Aligns with market averages.")
 
                 # 2. Key Performance Indicator (KPI) Display
-                st.metric(label="ESTIMATED ANNUAL PREMIUM", value=f"₹ {prediction:,.2f}")
+                st.metric(label="ESTIMATED ANNUAL PREMIUM", value=f"$ {prediction:,.2f}")
                 
                 # 3. Data Visualization: Gauge Chart (Plotly)
                 # Visualizes the prediction relative to min/max domain boundaries
                 fig = go.Figure(go.Indicator(
                     mode = "gauge+number",
                     value = prediction,
-                    number = {'prefix': "₹ "},
+                    number = {'prefix': "$ "},
                     gauge = {
                         'axis': {'range': [2000, 60000]}, # Domain boundaries
                         'bar': {'color': "rgba(0,0,0,0)"}, # Transparent needle background
