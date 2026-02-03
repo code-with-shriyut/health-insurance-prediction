@@ -1,26 +1,36 @@
-# 🏥 Insurance Premium Prediction Project
+# 🏥 Health Insurance Premium Prediction
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://health-insurance-prediction-6txznqt3mghqyanykyrmdv.streamlit.app/)
 
-> **🚀 Project Status:** Phase 1 Completed (Champion Model Selected)
-
-This project applies Machine Learning techniques to predict health insurance premiums based on personal attributes such as age, BMI, smoking habits, and region. The goal was to build a highly accurate regression model to assist in automated premium estimation.
+Built a regression-based machine learning model to predict health insurance premiums using demographic and lifestyle attributes such as age, BMI, smoking status, and region. The project focuses on model comparison, performance evaluation, and explainability to support automated pricing and risk assessment decisions.
 
 ---
+## 📌 Business Problem
 
-## 🏆 Champion Model: Random Forest Regressor
+Insurance providers need accurate premium estimation to balance customer affordability with financial risk. This project predicts expected insurance charges based on individual risk profiles to support data-driven pricing and underwriting decisions.
 
-After rigorous testing and comparison of multiple algorithms (Linear Regression, Lasso, Decision Tree, KNN, and Random Forest), we have selected the **Random Forest Regressor** as our production-grade model.
+### 🧠 Approach
 
-### 📊 Performance Metrics (Verified)
+- Performed data preprocessing and feature engineering on structured insurance data
 
-| Metric | Score | Status |
-| :--- | :--- | :--- |
-| **R² Score (Accuracy)** | **97.89%** | ✅ Excellent |
-| **MAE (Avg Error)** | 847.67 | ✅ Acceptable |
-| **Model Artifact** | `models/champion_random_forest.pkl` | 💾 Saved |
+- Trained and compared multiple regression models to benchmark performance
 
-> **Architect's Note:** The model was optimized using `max_depth=7` and feature engineering (K-Means Clustering) to achieve this high accuracy, significantly outperforming the baseline linear models.
+- Selected a champion model based on predictive accuracy and error metrics
+
+- Packaged the final model for interactive use through a Streamlit dashboard
+
+---
+## 🤖 Models Evaluated
+
+- Linear Regression
+
+- Lasso Regression
+
+- K-Nearest Neighbors (KNN)
+
+- Decision Tree Regressor
+
+- Random Forest Regressor (Champion Model)
 
 ---
 
@@ -36,7 +46,21 @@ Below is the final evaluation of all models developed by the team.
 | 4 | Lasso Regression | 81.75% | 3500.70 | Shriyut |
 | 5 | Linear Regression | 81.76% | 3480.10 | Shriyut |
 
-*(Note: Competitor scores are approximate based on development phase results)*
+*Key Insight: Smoking status, BMI, and age were the strongest predictors influencing insurance premium values.*
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+
+- Pandas, NumPy
+
+- Scikit-learn
+
+- Matplotlib / Seaborn
+
+- Streamlit
 
 ---
 
